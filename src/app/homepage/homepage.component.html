@@ -25,17 +25,17 @@
         <div class="heading col-1">
             <h3>NEWS</h3>
         </div>
-        <div class="row">                                                           <!--HERE DESIGN GIVING PROBLEM-->
-        <div *ngFor="let news of news">          
-                <div class="desc col-3">
-                    <h4>MAY 23 , 2022 <br>
-                        <b>{{ news }}</b>
-                    </h4>
-                </div>
-            </div>
+
+        <!--HERE DESIGN GIVING PROBLEM-->
+
+        <div class="desc newsinfo" *ngFor="let news of news">
+
+            <h4>MAY 23 , 2022 <br>
+                <b>{{ news }}</b>
+            </h4>
         </div>
-        
-        
+
+
     </div>
 </div>
 
@@ -129,48 +129,7 @@
     </h1>
 
     <div class="row">
-        <div class="col-4">
-            <div class="card" style="width: 18rem;">
-                <img src="https://pgc-media.s3.ap-south-1.amazonaws.com/7c09ccc3-3c04-489c-bf59-6b5dec1cfbb8/stories/8b21394f-ed90-4b0e-b90b-dfb18777171a/PGC-PIC5.png"
-                    class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">22-Year-Old Furkan Is Outcasted From Society, Help Before He Kills Himself.
-                    </h5>
-                    <p class="card-text">22-year-old Furkan is suffering from Neurofibromatosis. It is a congenital
-                        disorder that causes tumours to develop on nerve tissue. They can develop anywhere,.</p>
-                    <a href="#" class="btn btn-primary">DONATE NOW</a>
-                </div>
-            </div>
-        </div>
-
-        <div *ngIf="let medical of medicalcases">
-        <div class="col-4">
-            <div class="card" style="width: 18rem;">
-                <img src="https://pgc-media.s3.ap-south-1.amazonaws.com/7c09ccc3-3c04-489c-bf59-6b5dec1cfbb8/stories/e0b17d07-dc28-4d08-b7f0-ab3688abaca6/PGC-IMG_5635.png"
-                    class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">{{ medical }}</h5>
-                    <p class="card-text">{{ medical }}</p>
-                    <a href="#" class="btn btn-primary">DONATE NOW</a>
-                </div>
-            </div>
-        </div>
-        </div>
-
-        <div class="col-4">
-            <div class="card" style="width: 18rem;">
-                <img src="https://pgc-media.s3.ap-south-1.amazonaws.com/7c09ccc3-3c04-489c-bf59-6b5dec1cfbb8/stories/87d84955-997f-4fec-90ba-ad09a13c691b/PGC-PIC1.png"
-                    class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p>
-                    <a href="#" class="btn btn-primary">DONATE NOW</a>
-                </div>
-            </div>
-        </div>
-
-
+        <app-personinfo></app-personinfo>
     </div>
 </div>
 
@@ -178,64 +137,8 @@
 <div class="container">
     <h1><b>LIVES WE HAVE SAVED</b></h1>
     <p>Congratulating and celebrating the lives we have saved through your help. Thank you.</p>
-
-    <div class="row">
-        <div class="col-3">
-            <div class="card" style="width: 18rem;">
-                <img src="https://pgc-media.s3.ap-south-1.amazonaws.com/7c09ccc3-3c04-489c-bf59-6b5dec1cfbb8/stories/8b21394f-ed90-4b0e-b90b-dfb18777171a/PGC-PIC5.png"
-                    class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">22-Year-Old Furkan Is Outcasted From Society, Help Before He Kills Himself.
-                    </h5>
-                    <p class="card-text">22-year-old Furkan is suffering from Neurofibromatosis. It is a congenital
-                        disorder that causes tumours to develop on nerve tissue. They can develop anywhere,.</p>
-                    <a href="#" class="btn btn-primary">DONATE NOW</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-3">
-            <div class="card" style="width: 18rem;">
-                <img src="https://pgc-media.s3.ap-south-1.amazonaws.com/7c09ccc3-3c04-489c-bf59-6b5dec1cfbb8/stories/8b21394f-ed90-4b0e-b90b-dfb18777171a/PGC-PIC5.png"
-                    class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">22-Year-Old Furkan Is Outcasted From Society, Help Before He Kills Himself.
-                    </h5>
-                    <p class="card-text">22-year-old Furkan is suffering from Neurofibromatosis. It is a congenital
-                        disorder that causes tumours to develop on nerve tissue. They can develop anywhere,.</p>
-                    <a href="#" class="btn btn-primary">DONATE NOW</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-3">
-            <div class="card" style="width: 18rem;">
-                <img src="https://pgc-media.s3.ap-south-1.amazonaws.com/7c09ccc3-3c04-489c-bf59-6b5dec1cfbb8/stories/8b21394f-ed90-4b0e-b90b-dfb18777171a/PGC-PIC5.png"
-                    class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">22-Year-Old Furkan Is Outcasted From Society, Help Before He Kills Himself.
-                    </h5>
-                    <p class="card-text">22-year-old Furkan is suffering from Neurofibromatosis. It is a congenital
-                        disorder that causes tumours to develop on nerve tissue. They can develop anywhere,.</p>
-                    <a href="#" class="btn btn-primary">DONATE NOW</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-3">
-            <div class="card" style="width: 18rem;">
-                <img src="https://pgc-media.s3.ap-south-1.amazonaws.com/7c09ccc3-3c04-489c-bf59-6b5dec1cfbb8/stories/8b21394f-ed90-4b0e-b90b-dfb18777171a/PGC-PIC5.png"
-                    class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">22-Year-Old Furkan Is Outcasted From Society, Help Before He Kills Himself.
-                    </h5>
-                    <p class="card-text">22-year-old Furkan is suffering from Neurofibromatosis. It is a congenital
-                        disorder that causes tumours to develop on nerve tissue. They can develop anywhere,.</p>
-                    <a href="#" class="btn btn-primary">DONATE NOW</a>
-                </div>
-            </div>
-        </div>
-    </div>
+    
+    <app-lifesaved></app-lifesaved>
 </div>
 
 <div class="hw container-fluid">
