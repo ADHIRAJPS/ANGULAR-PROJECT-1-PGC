@@ -1,0 +1,15 @@
+.notice-box{
+    background-color: rgb(134, 5, 41);
+    height: 150px;
+    text-align: center;
+    color: white;
+    padding: 50px 50px;
+}
+
+
+.team{
+    text-align: center;
+    .card-img-top{
+        display: circle;
+    }
+}

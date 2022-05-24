@@ -1,0 +1,386 @@
+<!-- CAROUSEL GALLERY    -->
+
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="https://www.projectglobalcure.org/assets/images/landing-page/banner/unconditional-support.webp"
+                class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="https://www.projectglobalcure.org/assets/images/landing-page/banner/first-banner.webp"
+                class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="https://www.projectglobalcure.org/assets/images/landing-page/banner/Emergency-Fund.webp"
+                class="d-block w-100" alt="...">
+        </div>
+    </div>
+</div>
+
+
+
+<!-- NEWS SECTION   -->
+<div class="news container-fluid">
+    <div class="row">
+        <div class="heading col-1">
+            <h3>NEWS</h3>
+        </div>
+        <div class="row">                                                           <!--HERE DESIGN GIVING PROBLEM-->
+        <div *ngFor="let news of news">          
+                <div class="desc col-3">
+                    <h4>MAY 23 , 2022 <br>
+                        <b>{{ news }}</b>
+                    </h4>
+                </div>
+            </div>
+        </div>
+        
+        
+    </div>
+</div>
+
+<!-- WHAT WE DO    -->
+<div class="container">
+    <div class="row">
+        <div class="card cardtop col-4">
+            <h3>REASONS DO COUNT ON US</h3>
+            <h2><b>WHAT WE DO ?</b></h2>
+            <p>Project Global Cure strives to meet the demand for quality health services with advancements in the
+                medical system and increased accessibility.</p>
+        </div>
+
+        <div class="col-4">
+            <div class="cardtop card">
+
+                <h3>CONTINGENCY FUNDS</h3><br>
+                <p>To meet the demand for quality health services and technological advancement of the health
+                    sector.</p>
+
+            </div>
+        </div>
+
+        <div class="col-4 cardtop">
+            <div class="card">
+                <div id="logofund">
+                    <i class="fas fa-hand-holding-heart"></i>
+                </div>
+                <div class="card-content">
+                    <h3>Easily Accessible Platform</h3><br>
+                    <p>Where everyone can reach out with effortless technical accessibility.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-4 cardtop">
+            <div class="card">
+                <div id="logofund">
+                    <i class="fas fa-hand-holding-heart"></i>
+                </div>
+                <div class="card-content">
+                    <h3>Quality Health Support System</h3><br>
+                    <p>That is Reliable and Transparent with increased accessibility.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-4 cardtop">
+            <div class="card">
+                <div id="logofund">
+                    <i class="fas fa-hand-holding-heart"></i>
+                </div>
+                <div class="card-content">
+                    <h3>Free Medical Checkups </h3><br>
+                    <p>Aiming to make consultations available at every nook and corner of India at Regular Intervals</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-4 cardtop">
+            <div class="card">
+                <div id="logofund">
+                    <i class="fas fa-hand-holding-heart"></i>
+                </div>
+                <div class="card-content">
+                    <h3>Affordable medical solutions</h3><br>
+                    <p>Creating effective and technically advanced medical solutions at affordable costs.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- COMMITMENTS -->
+
+<div class="commitments" style="text-align:center">
+    <h3>WE ARE DEDICATED TOWARDS
+        <h1><b>OUR COMMITMENTS</b></h1>
+    </h3>
+
+    <img src="https://www.projectglobalcure.org/assets/images/landing-page/our_support_content.webp" width="90%">
+</div>
+
+
+
+
+<!-- MEDICAL CASES    -->
+<div class="container">
+    <h3>MEDICAL CASES</h3>
+    <h1><b>WE ARE SUPPROTING</b>
+    </h1>
+
+    <div class="row">
+        <div class="col-4">
+            <div class="card" style="width: 18rem;">
+                <img src="https://pgc-media.s3.ap-south-1.amazonaws.com/7c09ccc3-3c04-489c-bf59-6b5dec1cfbb8/stories/8b21394f-ed90-4b0e-b90b-dfb18777171a/PGC-PIC5.png"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">22-Year-Old Furkan Is Outcasted From Society, Help Before He Kills Himself.
+                    </h5>
+                    <p class="card-text">22-year-old Furkan is suffering from Neurofibromatosis. It is a congenital
+                        disorder that causes tumours to develop on nerve tissue. They can develop anywhere,.</p>
+                    <a href="#" class="btn btn-primary">DONATE NOW</a>
+                </div>
+            </div>
+        </div>
+
+        <div *ngIf="let medical of medicalcases">
+        <div class="col-4">
+            <div class="card" style="width: 18rem;">
+                <img src="https://pgc-media.s3.ap-south-1.amazonaws.com/7c09ccc3-3c04-489c-bf59-6b5dec1cfbb8/stories/e0b17d07-dc28-4d08-b7f0-ab3688abaca6/PGC-IMG_5635.png"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">{{ medical }}</h5>
+                    <p class="card-text">{{ medical }}</p>
+                    <a href="#" class="btn btn-primary">DONATE NOW</a>
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <div class="col-4">
+            <div class="card" style="width: 18rem;">
+                <img src="https://pgc-media.s3.ap-south-1.amazonaws.com/7c09ccc3-3c04-489c-bf59-6b5dec1cfbb8/stories/87d84955-997f-4fec-90ba-ad09a13c691b/PGC-PIC1.png"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                    <a href="#" class="btn btn-primary">DONATE NOW</a>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+
+<!-- WE SAVED -->
+<div class="container">
+    <h1><b>LIVES WE HAVE SAVED</b></h1>
+    <p>Congratulating and celebrating the lives we have saved through your help. Thank you.</p>
+
+    <div class="row">
+        <div class="col-3">
+            <div class="card" style="width: 18rem;">
+                <img src="https://pgc-media.s3.ap-south-1.amazonaws.com/7c09ccc3-3c04-489c-bf59-6b5dec1cfbb8/stories/8b21394f-ed90-4b0e-b90b-dfb18777171a/PGC-PIC5.png"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">22-Year-Old Furkan Is Outcasted From Society, Help Before He Kills Himself.
+                    </h5>
+                    <p class="card-text">22-year-old Furkan is suffering from Neurofibromatosis. It is a congenital
+                        disorder that causes tumours to develop on nerve tissue. They can develop anywhere,.</p>
+                    <a href="#" class="btn btn-primary">DONATE NOW</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-3">
+            <div class="card" style="width: 18rem;">
+                <img src="https://pgc-media.s3.ap-south-1.amazonaws.com/7c09ccc3-3c04-489c-bf59-6b5dec1cfbb8/stories/8b21394f-ed90-4b0e-b90b-dfb18777171a/PGC-PIC5.png"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">22-Year-Old Furkan Is Outcasted From Society, Help Before He Kills Himself.
+                    </h5>
+                    <p class="card-text">22-year-old Furkan is suffering from Neurofibromatosis. It is a congenital
+                        disorder that causes tumours to develop on nerve tissue. They can develop anywhere,.</p>
+                    <a href="#" class="btn btn-primary">DONATE NOW</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-3">
+            <div class="card" style="width: 18rem;">
+                <img src="https://pgc-media.s3.ap-south-1.amazonaws.com/7c09ccc3-3c04-489c-bf59-6b5dec1cfbb8/stories/8b21394f-ed90-4b0e-b90b-dfb18777171a/PGC-PIC5.png"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">22-Year-Old Furkan Is Outcasted From Society, Help Before He Kills Himself.
+                    </h5>
+                    <p class="card-text">22-year-old Furkan is suffering from Neurofibromatosis. It is a congenital
+                        disorder that causes tumours to develop on nerve tissue. They can develop anywhere,.</p>
+                    <a href="#" class="btn btn-primary">DONATE NOW</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-3">
+            <div class="card" style="width: 18rem;">
+                <img src="https://pgc-media.s3.ap-south-1.amazonaws.com/7c09ccc3-3c04-489c-bf59-6b5dec1cfbb8/stories/8b21394f-ed90-4b0e-b90b-dfb18777171a/PGC-PIC5.png"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">22-Year-Old Furkan Is Outcasted From Society, Help Before He Kills Himself.
+                    </h5>
+                    <p class="card-text">22-year-old Furkan is suffering from Neurofibromatosis. It is a congenital
+                        disorder that causes tumours to develop on nerve tissue. They can develop anywhere,.</p>
+                    <a href="#" class="btn btn-primary">DONATE NOW</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="hw container-fluid">
+    <div class="row">
+        <div class="col-6">
+            <h1 id="hwd" style="text-align: center; padding-top:100px">Every Day We Are One Step Closer to the Healthy
+                World We Want
+                Tomorrow, Through Our Steadfast Commitment to
+                Action Today.</h1>
+        </div>
+
+        <div class="col-6">
+            <div class="row">
+                <div class="col-6">
+                    <img src="https://www.projectglobalcure.org/assets/images/landing-page/c-1.webp" height="70%"
+                        width="50%">
+                    <h2>9000+ SUPPORTERS</h2>
+                </div>
+                <div class="col-6">
+                    <img src="https://www.projectglobalcure.org/assets/images/landing-page/c-2.webp" height="70%"
+                        width="50%">
+                    <h2>CONNECTED PEOPLE</h2>
+                </div>
+                <div class="col-6">
+                    <img src="https://www.projectglobalcure.org/assets/images/landing-page/c-4.webp" height="70%"
+                        width="50%">
+                    <h2>STATES AND UT</h2>
+                </div>
+                <div class="col-6">
+                    <img src="https://www.projectglobalcure.org/assets/images/landing-page/c-3.webp" height="70%"
+                        width="50%">\
+                    <h2>PARTNERS</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+    <h3>We Make Sincere Efforts Towards</h3>
+    <h1><b>WHAT ARE WE WORKING ON?</b></h1>
+    <h5>Our team is busy working towards our vision of a healthy and developed India. Discover what is happening at
+        Project Global Cure here: </h5>
+</div>
+
+<div class="working">
+    <div class="container">
+        <div class="row">
+            <div class="info col-3">
+                <h1>01</h1>
+                <p>TRANSFORMING HEALTH SECTOR OF INDIA</p>
+            </div>
+            <div class="info col-3">
+                <h1>02</h1>
+                <p>Saving lives through advanced medical support</p>
+            </div>
+            <div class="info col-3">
+                <h1>03</h1>
+                <p>Easy access to medical services through technical advancement</p>
+            </div>
+            <div class="info col-3">
+                <h1>04</h1>
+                <p>BETTER CONNECTION TO CREATE HEALTHIER SOCIETY</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <!-- BULLETIN BOARD -->
+    <h2>Bulletin Board</h2>
+    <h1><b>LATEST UPDATES</b></h1>
+    <p>As we all know, the healthcare industry is undergoing a major transformation in India. The Project Global Cure
+        brings
+        the latest healthcare news, views and updates from the Indian and Global Health Industry.</p>
+
+
+
+    <div class="row">
+        <div class="col-4">
+            <div class="card" style="width: 18rem;">
+                <img src="https://pgc-media.s3.ap-south-1.amazonaws.com/7c09ccc3-3c04-489c-bf59-6b5dec1cfbb8/blogs/91671627-115c-40fa-8fc5-71edd9ce6fcb/PGC-Water%20Pollution%20Blog-1.jpg"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">WATER POLLUTION AND ITS IMPACT ON HUMAN HEALTH. IT’S HIGH TIME TO </h5>
+                    <p class="card-text">Important Facts
+
+                        All over the world, approximately 2 billion population use a drinking water </p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-4">
+            <div class="card" style="width: 18rem;">
+                <img src="https://pgc-media.s3.ap-south-1.amazonaws.com/7c09ccc3-3c04-489c-bf59-6b5dec1cfbb8/blogs/e7b934c9-72e3-4f17-8e15-6d0f244fd9fa/PGC-PGC-Blog-01-4-05-2022.jpg"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-4">
+            <div class="card" style="width: 18rem;">
+                <img src="https://pgc-media.s3.ap-south-1.amazonaws.com/7c09ccc3-3c04-489c-bf59-6b5dec1cfbb8/blogs/d5dc6347-a269-4cf5-9e68-02c5117fee7d/PGC-www.jpg"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- IMPACT TOGETHER -->
+<div class="impact" style="padding:100px;">
+    <div class="row">
+        <h1>Let's Make an Impact Together</h1>
+        <h5>Let us unite and provide emotional, moral and medical support to all citizens and build a healthy India by
+            2030</h5>
+    </div>
+    <div class="row ">
+        <div class="col-md-3">
+            <img src="https://www.projectglobalcure.org/assets/images/landing-page/world-blood-pgc.jpg"
+                href="https://www.youtube.com/embed/w2eW784t0w8?rel=0&showinfo=0&autoplay=1">
+        </div>
+        <div class="col-md-3">
+            <img src="https://www.projectglobalcure.org/assets/images/landing-page/mqdefault-pgc.jpg"
+                href="https://www.youtube.com/embed/w2eW784t0w8?rel=0&showinfo=0&autoplay=1">
+        </div>
+        <div class="col-md-3">
+            <img src="https://www.projectglobalcure.org/assets/images/landing-page/mqdefault-senior-citizens.jpg"
+                href="https://www.youtube.com/embed/w2eW784t0w8?rel=0&showinfo=0&autoplay=1">
+        </div>
+        <div class="col-md-3">
+            <img src="https://www.projectglobalcure.org/assets/images/landing-page/mqdefault-senior-citizens.jpg"
+                href="https://www.youtube.com/embed/w2eW784t0w8?rel=0&showinfo=0&autoplay=1">
+        </div>
+    </div>
+</div>
