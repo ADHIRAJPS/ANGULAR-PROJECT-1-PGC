@@ -11,6 +11,8 @@ import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
 import { PersoninfoComponent } from './components/personinfo/personinfo.component';
 import { LifesavedComponent } from './components/lifesaved/lifesaved.component';
+import { ContactusComponent } from './contactus/contactus.component';
+import { TeammembersComponent } from './components/teammembers/teammembers.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { LifesavedComponent } from './components/lifesaved/lifesaved.component';
     FooterComponent,
     HeaderComponent,
     PersoninfoComponent,
-    LifesavedComponent
+    LifesavedComponent,
+    ContactusComponent,
+    TeammembersComponent
   ],
   imports: [
     BrowserModule,

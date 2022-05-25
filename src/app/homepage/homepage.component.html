@@ -1,20 +1,19 @@
 <!-- CAROUSEL GALLERY    -->
-
-<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-inner">
+<div class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner text-center">
         <div class="carousel-item active">
-            <img src="https://www.projectglobalcure.org/assets/images/landing-page/banner/unconditional-support.webp"
-                class="d-block w-100" alt="...">
+            <img src="">
+            <h1>ITEM 1</h1>
         </div>
-        <div class="carousel-item">
-            <img src="https://www.projectglobalcure.org/assets/images/landing-page/banner/first-banner.webp"
-                class="d-block w-100" alt="...">
+        <div class="carousel-item ">
+            <img src="">
+            <h1>ITEM 2</h1>
         </div>
-        <div class="carousel-item">
-            <img src="https://www.projectglobalcure.org/assets/images/landing-page/banner/Emergency-Fund.webp"
-                class="d-block w-100" alt="...">
+        <div class="carousel-item ">
+            <img src="">
+            <h1>ITEM 3</h1>
         </div>
-    </div>
+
 </div>
 
 
@@ -22,13 +21,13 @@
 <!-- NEWS SECTION   -->
 <div class="news container-fluid">
     <div class="row">
-        <div class="heading col-1">
+        <div class="heading col-lg-3 col-md-3 col-sm-6 p-5">
             <h3>NEWS</h3>
         </div>
 
         <!--HERE DESIGN GIVING PROBLEM-->
 
-        <div class="desc newsinfo" *ngFor="let news of news">
+        <div class="desc col-lg-3 col-md-3 col-sm-6 p-3" *ngFor="let news of news">
 
             <h4>MAY 23 , 2022 <br>
                 <b>{{ news }}</b>
@@ -40,16 +39,16 @@
 </div>
 
 <!-- WHAT WE DO    -->
-<div class="container">
+<div class="wedo container">
     <div class="row">
-        <div class="card cardtop col-4">
+        <div class="card  col-lg-4 col-md-6 col-s-12" style="padding-top:50px">
             <h3>REASONS DO COUNT ON US</h3>
             <h2><b>WHAT WE DO ?</b></h2>
             <p>Project Global Cure strives to meet the demand for quality health services with advancements in the
                 medical system and increased accessibility.</p>
         </div>
 
-        <div class="col-4">
+        <div class="col-lg-4 col-md-6 col-s-12">
             <div class="cardtop card">
 
                 <h3>CONTINGENCY FUNDS</h3><br>
@@ -59,7 +58,7 @@
             </div>
         </div>
 
-        <div class="col-4 cardtop">
+        <div class="col-lg-4 col-md-6 col-s-12 cardtop">
             <div class="card">
                 <div id="logofund">
                     <i class="fas fa-hand-holding-heart"></i>
@@ -71,7 +70,7 @@
             </div>
         </div>
 
-        <div class="col-4 cardtop">
+        <div class="col-lg-4 col-md-6 col-s-12 cardtop">
             <div class="card">
                 <div id="logofund">
                     <i class="fas fa-hand-holding-heart"></i>
@@ -83,7 +82,7 @@
             </div>
         </div>
 
-        <div class="col-4 cardtop">
+        <div class="col-lg-4 col-md-6 col-s-12 cardtop">
             <div class="card">
                 <div id="logofund">
                     <i class="fas fa-hand-holding-heart"></i>
@@ -95,7 +94,7 @@
             </div>
         </div>
 
-        <div class="col-4 cardtop">
+        <div class="col-lg-4 col-md-6 col-s-12 cardtop">
             <div class="card">
                 <div id="logofund">
                     <i class="fas fa-hand-holding-heart"></i>
@@ -111,7 +110,7 @@
 
 <!-- COMMITMENTS -->
 
-<div class="commitments" style="text-align:center">
+<div class="commitments p-5 mt-5" style="text-align:center">
     <h3>WE ARE DEDICATED TOWARDS
         <h1><b>OUR COMMITMENTS</b></h1>
     </h3>
@@ -137,20 +136,20 @@
 <div class="container">
     <h1><b>LIVES WE HAVE SAVED</b></h1>
     <p>Congratulating and celebrating the lives we have saved through your help. Thank you.</p>
-    
+
     <app-lifesaved></app-lifesaved>
 </div>
 
 <div class="hw container-fluid">
     <div class="row">
-        <div class="col-6">
+        <div class="col-lg-6 col-md-6 col-sm-12">
             <h1 id="hwd" style="text-align: center; padding-top:100px">Every Day We Are One Step Closer to the Healthy
                 World We Want
                 Tomorrow, Through Our Steadfast Commitment to
                 Action Today.</h1>
         </div>
 
-        <div class="col-6">
+        <div class="col-lg-6 col-md-6 col-sm-12">
             <div class="row">
                 <div class="col-6">
                     <img src="https://www.projectglobalcure.org/assets/images/landing-page/c-1.webp" height="70%"
@@ -178,29 +177,31 @@
 </div>
 
 
-<div class="container">
+<div class="container p-5">
+    <div class="row">
     <h3>We Make Sincere Efforts Towards</h3>
     <h1><b>WHAT ARE WE WORKING ON?</b></h1>
     <h5>Our team is busy working towards our vision of a healthy and developed India. Discover what is happening at
         Project Global Cure here: </h5>
+        </div>
 </div>
 
 <div class="working">
     <div class="container">
         <div class="row">
-            <div class="info col-3">
+            <div class="info col-lg-3 col-md-6 col-sm-12">
                 <h1>01</h1>
                 <p>TRANSFORMING HEALTH SECTOR OF INDIA</p>
             </div>
-            <div class="info col-3">
+            <div class="info col-lg-3 col-md-6 col-sm-12">
                 <h1>02</h1>
                 <p>Saving lives through advanced medical support</p>
             </div>
-            <div class="info col-3">
+            <div class="info col-lg-3 col-md-6 col-sm-12">
                 <h1>03</h1>
                 <p>Easy access to medical services through technical advancement</p>
             </div>
-            <div class="info col-3">
+            <div class="info col-lg-3 col-md-6 col-sm-12">
                 <h1>04</h1>
                 <p>BETTER CONNECTION TO CREATE HEALTHIER SOCIETY</p>
             </div>
@@ -208,7 +209,7 @@
     </div>
 </div>
 
-<div class="container">
+<div class="container p-3">
     <!-- BULLETIN BOARD -->
     <h2>Bulletin Board</h2>
     <h1><b>LATEST UPDATES</b></h1>
@@ -219,10 +220,10 @@
 
 
     <div class="row">
-        <div class="col-4">
-            <div class="card" style="width: 18rem;">
+        <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card p-5">
                 <img src="https://pgc-media.s3.ap-south-1.amazonaws.com/7c09ccc3-3c04-489c-bf59-6b5dec1cfbb8/blogs/91671627-115c-40fa-8fc5-71edd9ce6fcb/PGC-Water%20Pollution%20Blog-1.jpg"
-                    class="card-img-top" alt="...">
+                    class="card-img-top" alt="..." style="width: 400px">
                 <div class="card-body">
                     <h5 class="card-title">WATER POLLUTION AND ITS IMPACT ON HUMAN HEALTH. IT’S HIGH TIME TO </h5>
                     <p class="card-text">Important Facts
@@ -233,10 +234,10 @@
             </div>
         </div>
 
-        <div class="col-4">
-            <div class="card" style="width: 18rem;">
+        <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card p-5" width="100%">
                 <img src="https://pgc-media.s3.ap-south-1.amazonaws.com/7c09ccc3-3c04-489c-bf59-6b5dec1cfbb8/blogs/e7b934c9-72e3-4f17-8e15-6d0f244fd9fa/PGC-PGC-Blog-01-4-05-2022.jpg"
-                    class="card-img-top" alt="...">
+                    class="card-img-top" alt="..." style="width: 400px">
                 <div class="card-body">
                     <h5 class="card-title">Card title</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
@@ -246,10 +247,10 @@
             </div>
         </div>
 
-        <div class="col-4">
-            <div class="card" style="width: 18rem;">
+        <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card p-5">
                 <img src="https://pgc-media.s3.ap-south-1.amazonaws.com/7c09ccc3-3c04-489c-bf59-6b5dec1cfbb8/blogs/d5dc6347-a269-4cf5-9e68-02c5117fee7d/PGC-www.jpg"
-                    class="card-img-top" alt="...">
+                    class="card-img-top" alt="..." style="width: 300px">
                 <div class="card-body">
                     <h5 class="card-title">Card title</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
@@ -268,20 +269,20 @@
         <h5>Let us unite and provide emotional, moral and medical support to all citizens and build a healthy India by
             2030</h5>
     </div>
-    <div class="row ">
-        <div class="col-md-3">
+    <div class="row">
+        <div class="col-lg-3 col-md-6 col-sm-12 p-3">
             <img src="https://www.projectglobalcure.org/assets/images/landing-page/world-blood-pgc.jpg"
                 href="https://www.youtube.com/embed/w2eW784t0w8?rel=0&showinfo=0&autoplay=1">
         </div>
-        <div class="col-md-3">
+        <div class="col-lg-3 col-md-6 col-sm-12 p-3">
             <img src="https://www.projectglobalcure.org/assets/images/landing-page/mqdefault-pgc.jpg"
                 href="https://www.youtube.com/embed/w2eW784t0w8?rel=0&showinfo=0&autoplay=1">
         </div>
-        <div class="col-md-3">
+        <div class="col-lg-3 col-md-6 col-sm-12 p-3">
             <img src="https://www.projectglobalcure.org/assets/images/landing-page/mqdefault-senior-citizens.jpg"
                 href="https://www.youtube.com/embed/w2eW784t0w8?rel=0&showinfo=0&autoplay=1">
         </div>
-        <div class="col-md-3">
+        <div class="col-lg-3 col-md-6 col-sm-12 p-3">
             <img src="https://www.projectglobalcure.org/assets/images/landing-page/mqdefault-senior-citizens.jpg"
                 href="https://www.youtube.com/embed/w2eW784t0w8?rel=0&showinfo=0&autoplay=1">
         </div>

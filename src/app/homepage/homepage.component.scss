@@ -5,40 +5,33 @@
     text-align: center;
     width:100%;
 }
-.newsinfo{
-    padding: 20px;
-    width:30%;
-}
+
 .heading{
     background: rgb(102, 5, 5);
     color: white;
-    padding: 20px;
-    width:10%;
+  
+  
 }
 .desc{
     background: silver;
-    padding: 20px;
+    
 }
 
 .cardtop{
     // width:30%;
     height: auto;
     // margin: 20px;
-    height: 300px;
     padding: 50px;
+    border-bottom: 5px solid rgb(92, 10, 10);
 }
 
 
-.hw{
-    height: 500px;
-    padding-top:50px,50px;
-    
-}
+
 #hwd{
     padding: 50px;
 }
 .working{
-    height: 500px;
+    
     text-align: center;
     padding: 50px;
     opacity: 0.8;
@@ -54,13 +47,11 @@
 }
 .info{
     background-color: black;
-    height: 400px;
     padding:15px;
     color:white;
     opacity:0.5;
 }
 .info:hover{
-    height:420px;
     background: grey;
     
 }
