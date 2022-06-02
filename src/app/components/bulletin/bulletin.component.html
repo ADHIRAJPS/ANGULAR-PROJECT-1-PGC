@@ -1,0 +1,23 @@
+<div class="row">
+    <div class="col-lg-4 col-md-6 col-sm-12" *ngFor="let item of bulletin | slice: 0:3">
+        <div class="card p-2" style="height:500px">
+            <div class="imgbody">
+                <img src="{{item.imgUrl}}"
+                class="card-img-top" alt="..." style="width: 100%">
+            </div>
+            <div class="card-body">                
+                <h5 class="card-title">{{item.heading}}</h5>
+                <p class="card-text">{{item.info}} </p>
+            </div>
+            <div class="row">
+                <a class="btn news-info">
+                    <i class="fa-solid fa-circle-info" id="red">  KNOW MORE</i>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="view-all text-center p-5">
+    <button class="btnview p-2">VIEW ALL</button>
+</div>

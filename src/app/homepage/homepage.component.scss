@@ -1,3 +1,5 @@
+
+
 .carousel{
     width: 100%;
 }
@@ -6,52 +8,122 @@
     width:100%;
 }
 
+.fadesign{
+    height: 50px;
+    font-size: 3rem;   
+}
+
 .heading{
     background: rgb(102, 5, 5);
     color: white;
-  
-  
+    padding-top: 15px;
 }
 .desc{
     background: silver;
-    
 }
 
 .cardtop{
     // width:30%;
-    height: auto;
+    height: 350px;
     // margin: 20px;
     padding: 50px;
-    border-bottom: 5px solid rgb(92, 10, 10);
+    border-bottom: 5px solid rgb(220, 25, 25);
+    align-items: center;
+    color:red;
+    display: hidden;
+}
+.cardtop:hover{
+    background: red;
+    color:white;
+    transition: .5s ease-in-out;
+    display: visible;
+}
+.hw{
+    background: url("https://www.projectglobalcure.org/assets/images/landing-page/Group-21.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-
-
 #hwd{
-    padding: 50px;
+    padding: 50px 10px 50px 10px;
+    font-size: 30px;
+    margin: 0px 10px;
+    line-height: 50px;
 }
 .working{
     
     text-align: center;
-    padding: 50px;
     opacity: 0.8;
     font-size: 20px;
     background: url("https://www.projectglobalcure.org/assets/images/landing-page/Saving-Lives-Amid-the-Coronavirus-Pandemic.webp");
+    background-size: cover;
 }
 
 .impact{
     background: black;
-    color:white;
+    color: white;
     text-align: center;
-    padding:50px;
+    padding: auto;
+    padding-top: 40px;
+    margin-top: 20px;
+    padding-bottom: 50px;
+    line-height: 1.5;
+}
+#impb{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    
+}
+.imgimpact{
+    width: 100%;
+    padding: 0;
+    height: 200px;
 }
 .info{
     background-color: black;
-    padding:15px;
     color:white;
-    opacity:0.5;
+    opacity:0.4;
+    padding: 80px 40px;
+}
+.info:hover{
+    background-color: blue;
+    transition: .5s center;
+    color:red;
+    opacity:0.7;
+    padding: 60px 40px;
 }
 .info:hover{
     background: grey;
     
 }
+.wedo{
+    display: none;
+}
+.wedo:hover{
+    transition: all 0.3s right;   
+}
+#red{
+    font-size:24px;
+    color:red;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#red2{
+    font-size: 24px;
+    color: red;
+}
+
+
+
+
+
+.info2:hover + .working{
+    
+        background: url("https://www.projectglobalcure.org/assets/images/landing-page/Group-21.webp");
+    
+}
+
+.test{
+    border: 2px solid red;
+    align-items: center;
+}
+

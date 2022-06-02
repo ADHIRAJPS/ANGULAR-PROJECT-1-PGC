@@ -8,6 +8,10 @@ import { PersoninfoComponent } from '../components/personinfo/personinfo.compone
 })
 export class HomepageComponent implements OnInit {
 
+  pink="background: rgb(251, 246, 246)";
+  newspresent = "let news in news"? true:false;
+  nonewstoday = "let news in news"? false:true;
+
   constructor() { }
 
   ngOnInit(): void {
@@ -15,8 +19,8 @@ export class HomepageComponent implements OnInit {
 
   news=[
     "one news is this ...",
-    "second news is this....",
-    "third news is this...."
+    // "second news is this....",
+    // "third news is this...."
   ];
 
   medicalcases=[

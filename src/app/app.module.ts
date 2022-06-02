@@ -13,6 +13,8 @@ import { PersoninfoComponent } from './components/personinfo/personinfo.componen
 import { LifesavedComponent } from './components/lifesaved/lifesaved.component';
 import { ContactusComponent } from './contactus/contactus.component';
 import { TeammembersComponent } from './components/teammembers/teammembers.component';
+import { BulletinComponent } from './components/bulletin/bulletin.component';
+import { EventsComponent } from './components/events/events.component';
 
 @NgModule({
   declarations: [
@@ -26,10 +28,12 @@ import { TeammembersComponent } from './components/teammembers/teammembers.compo
     PersoninfoComponent,
     LifesavedComponent,
     ContactusComponent,
-    TeammembersComponent
+    TeammembersComponent,
+    BulletinComponent,
+    EventsComponent
   ],
   imports: [
-    BrowserModule,
+    BrowserModule.withServerTransition({ appId: 'serverApp' }),
     AppRoutingModule
   ],
   providers: [],

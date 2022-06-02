@@ -1,5 +1,34 @@
-.menu , #menuicon , #navbarSupportedContent{
-    align : right;
-    padding: 15px;
-    height: auto;
+*{
+    padding: 0px ;
+    margin: 0px; 
+    box-sizing: border-box;
+    font-family: cursive;
+    // border: 1px solid red; 
+}
+.menu{
+    width: 100%;
+    align-items: right;
+    // border: 1px solid red;  
+}
+a{
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+ul{
+    width: 100%;
+    // border: 1px solid red;
+    text-align: right;
+}
+li{
+    list-style: none;
+    display: inline;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid red;
 }

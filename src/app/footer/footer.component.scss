@@ -1,9 +1,10 @@
 .links{
-    background-color: #af1010;
+    background-color: rgb(132, 12, 12);
     color: white;
     font-size:18px;
     padding: 10px;
     min-height: 200px;
+    padding-left: 50px;
     
 }
 
@@ -17,11 +18,14 @@
     color: white;
     font-size: 15px;
     padding: 10px;
-    
+}
+#heading{
+    text-decoration: underline;
+    text-align: center;
 }
 
 .footer{
-    text-align: center;
+   
     background-color: #7a0505;
     color: white;
 }

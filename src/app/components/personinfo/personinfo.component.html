@@ -1,29 +1,24 @@
-
 <div class="row">
-    <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 p-3" *ngFor="let people of persondetails">
+    <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 py-3 mt-2" *ngFor="let people of persondetails | slice:0:3">
         <div class="card-body">
-            <img src="https://pgc-media.s3.ap-south-1.amazonaws.com/7c09ccc3-3c04-489c-bf59-6b5dec1cfbb8/stories/e0b17d07-dc28-4d08-b7f0-ab3688abaca6/PGC-IMG_5635.png" width="100%">
-            <h5 class="card-title">{{people.heading}}</h5>
-            <p class="card-text">{{people.info}}</p>
-            <a href="#" class="btn btn-primary">DONATE NOW</a>
+            <div class="card-content">
+                <div class="img p-2">
+                    <img src={{people.imgUrl}} width="100%">
+                </div>
+                <div class="title p-2">
+                    <h5 class="card-title">{{people.heading}}</h5>
+                </div>
+                <div class="desc p-2">
+                    <p class="card-text">{{people.info}}</p>
+                </div>
+            </div>
+            <div class="text-center">
+                <button type="button" class="btn btn-primary">DONATE NOW</button>               
+            </div>
         </div>
     </div>
 </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<div class="view-all text-center p-5">
+    <button class="btnview p-2">VIEW ALL</button>
+</div>
