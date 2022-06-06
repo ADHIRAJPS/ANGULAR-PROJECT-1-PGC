@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -15,6 +16,8 @@ import { ContactusComponent } from './contactus/contactus.component';
 import { TeammembersComponent } from './components/teammembers/teammembers.component';
 import { BulletinComponent } from './components/bulletin/bulletin.component';
 import { EventsComponent } from './components/events/events.component';
+import { Covid19Component } from './covid19/covid19.component';
+import { PaymentGatewayComponent } from './components/payment-gateway/payment-gateway.component';
 
 @NgModule({
   declarations: [
@@ -30,11 +33,14 @@ import { EventsComponent } from './components/events/events.component';
     ContactusComponent,
     TeammembersComponent,
     BulletinComponent,
-    EventsComponent
+    EventsComponent,
+    Covid19Component,
+    PaymentGatewayComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'serverApp' }),
-    AppRoutingModule
+    AppRoutingModule , 
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
