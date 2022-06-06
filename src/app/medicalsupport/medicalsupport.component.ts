@@ -22,7 +22,7 @@ export class MedicalsupportComponent implements OnInit {
         console.log("data = ", data);
         console.log("patients = ",this.patients);  
         this.patients.forEach((i: any)=>{
-          console.log(i);
+          console.log(i.category);
         })
       },
       (err)=>{
